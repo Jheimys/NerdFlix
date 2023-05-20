@@ -12,7 +12,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é front-end?"}
+        videoDescription={"Elon Lages Lima"}
       />
 
       <Carousel
@@ -34,6 +34,17 @@ function App() {
         ignoreFirstVideo
         category={dadosIniciais.categorias[3]}
       />
+
+      <Carousel
+        ignoreFirstVideo
+        category={dadosIniciais.categorias[4]}
+      />
+
+      <Carousel
+        ignoreFirstVideo
+        category={dadosIniciais.categorias[5]}
+      />
+
 
       <Footer />
     </div>
